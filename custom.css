@@ -40,3 +40,61 @@ body {
   overflow-y: auto;
   scroll-behavior: smooth;
 }
+
+.scroll-x {
+  overflow-x: auto;
+}
+
+.bg-blur {
+  background: rgba(238, 238, 238, 0.25);
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
+}
+
+.red {
+  color: #e06150;
+}
+
+.yellow {
+  color: #d18c49;
+}
+
+.green {
+  color: #89c379;
+}
+
+.line-space {
+  line-height: 1.5;
+}
+
+.fit-content {
+  width: fit-content;
+}
+
+.sidebar {
+}
+
+.sidebar a {
+  color: rgb(154, 154, 154);
+  transition-duration: 0.4s;
+}
+
+.sidebar a:hover {
+  color: var(--primary);
+  transition-duration: 0.4s;
+  margin-left: var(--size-1);
+}
+
+.sidebar a:active {
+  color: var(--primary);
+}
+
+.child {
+  transition: 0.3s;
+}
+
+.child a:hover {
+  color: var(--primary);
+  transition: 0.3s;
+  margin-left: var(--size-5);
+}
