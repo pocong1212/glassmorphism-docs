@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="custom.css" />
+  </head>
+  <body>
+    <div class="h-100 flex flex-column">
+      <div class="h-10 w-100 container-lg mx-auto">
+        <div class="h-100 p-2 flex flex-column justify-center">Hello</div>
+      </div>
+      <div class="flex-fill h-90 w-100 container-lg mx-auto">
+        <div class="h-100 flex flex-row">
+          <div class="h-100 flex-2 scrollable p-2 gap-1">
+            <h1>
+              <a href="#installation">Installation</a>
+            </h1>
+            <h1>
+              <a href="#utilities">Utilities</a>
+            </h1>
+            <h1>
+              <a href="#colors">Colors</a>
+            </h1>
+            <h1>
+              <a href="#components">Components</a>
+            </h1>
+          </div>
+          <div class="h-100 flex-8 scrollable p-2">
+            <div class="section">
+              <h1 class="font-size-6">
+                <a href="#installation" id="installation"> Installation </a>
+                <p>
+                  You can download the css from
+                  <a href="index.css" download="glassmorphism.css">this link</a>
+                </p>
+              </h1>
+            </div>
+            <div class="section">
+              <h1 class="font-size-6">
+                <a href="#utilities" id="utilities"> Utilities </a>
+              </h1>
+            </div>
+            <div class="section">
+              <h1 class="font-size-6">
+                <a href="#colors" id="colors"> Colors </a>
+              </h1>
+            </div>
+            <div class="section">
+              <h1 class="font-size-6">
+                <a href="#components" id="components"> Components </a>
+              </h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      const sections = document.querySelectorAll(".section");
+      for (const section of sections) {
+        for (let i = 0; i < 25; i++) {
+          const node = document.createTextNode("lorem " + i);
+          const br = document.createElement("br");
+          section.appendChild(node);
+          section.appendChild(br);
+        }
+      }
+    </script>
+  </body>
+</html>
