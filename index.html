@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Glass Framework Docs</title>
     <link rel="stylesheet" href="index.css" />
     <link rel="stylesheet" href="custom.css" />
   </head>
@@ -21,22 +21,41 @@
         <div class="h-100 flex flex-row">
           <div
             class="sidebar h-100 flex-2 scrollable p-2 gap-1"
-            id="ease-in-out"
           >
-            <h1 class="mb-1">
-              <a href="#instalasi">Instalasi</a>
-            </h1>
-            <h1 class="mb-1">
-              <a href="#utilities">Utilities</a>
-              <h1 class="child">
-                <a href="#typography" class="ml-1 mb-1">Typography</a>
+            <div class="py-1">
+              <h1>
+                <a href="#instalasi">Instalasi</a>
               </h1>
-            </h1>
+            </div>
+            <div class="py-1">
+              <h1>
+                <a href="#layout">Layout</a>
+              </h1>
+              <h1>
+                <a href="#breakpoint" class="pt-1 pl-1">- Breakpoint</a>
+              </h1>
+              <h1>
+                <a href="#container" class="pt-1 pl-1">- Container</a>
+              </h1>
+              <h1>
+                <a href="#marginpadding" class="pt-1 pl-1"
+                  >- Margin dan Padding</a
+                >
+              </h1>
+            </div>
+            <div class="py-1">
+              <h1>
+                <a href="#components">Components</a>
+              </h1>
+              <h1>
+                <a href="#button" class="pt-1 pl-1">- Button</a>
+              </h1>
+            </div>
             <h1 class="mb-1">
               <a href="#colors">Colors</a>
             </h1>
             <h1 class="mb-1">
-              <a href="#components">Components</a>
+              <a href="#utilities">Utilities</a>
             </h1>
           </div>
           <div class="h-100 flex-8 scrollable p-2">
@@ -72,23 +91,209 @@
                   berikut :
                 </p>
                 <br />
-                <div class="card flex">
-                  <script src="https://gist.github.com/pocong1212/e4e1b00e61261bf1238c1c26f7e9741a.js"></script>
-                  <!-- <code class="language-html" data-lang="html">
-                    <span class="flex">
-                      <span>
-                        <
-                        <span class="red">link</span>
-                        <span class="yellow">rel</span>
-                        <span>=</span>
-                        <span class="green">"stylesheet"</span>
-                        <span class="yellow">href</span>
-                        <span>=</span>
-                        <span class="green">"glass-framework.css"</span>
-                        >
-                      </span>
-                  </code> -->
+                <script src="https://gist.github.com/pocong1212/e4e1b00e61261bf1238c1c26f7e9741a.js"></script>
+              </div>
+            </div>
+            <div class="section">
+              <h1 class="font-size-6">
+                <a href="#layout" id="layout" class="color-primary">Layout </a>
+              </h1>
+              <div class="pt-1">
+                <h2 class="font-size-3">
+                  <a href="#breakpoint" id="breakpoint" class="color-primary"
+                    >- Breakpoint</a
+                  >
+                </h2>
+                <br />
+                <div class="py-2">
+                  <p class="line-space text-justify">
+                    Glass-Framework mendukung 3 jenis breakpoint yang dapat
+                    digunakan dalam pembangunan website responsive.
+                  </p>
+                  <br />
+                  <table class="table w-100">
+                    <thead>
+                      <th>BreakPoint</th>
+                      <th>Class</th>
+                      <th>Dimensi</th>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>Medium</td>
+                        <td>
+                          <code class="red">md</code>
+                        </td>
+                        <td>≥768px</td>
+                      </tr>
+                      <tr>
+                        <td>Large</td>
+                        <td>
+                          <code class="red">lg</code>
+                        </td>
+                        <td>≥992px</td>
+                      </tr>
+                      <tr>
+                        <td>Extra Large</td>
+                        <td>
+                          <code class="red">xl</code>
+                        </td>
+                        <td>≥1200px</td>
+                      </tr>
+                    </tbody>
+                  </table>
                 </div>
+              </div>
+              <div class="pt-1">
+                <h2 class="font-size-3">
+                  <a href="#container" id="container" class="color-primary"
+                    >- Container</a
+                  >
+                </h2>
+                <br />
+                <p class="line-space text-justify"></p>
+                <br />
+              </div>
+              <div class="pt-1">
+                <h2 class="font-size-3">
+                  <a
+                    href="#marginpadding"
+                    id="marginpadding"
+                    class="color-primary"
+                    >- Margin dan Padding</a
+                  >
+                </h2>
+                <br />
+                <p class="line-space text-justify">
+                  Margin dan padding digunakan dalam mengatur jarak dari setiap
+                  element, ukuran yang digunakan mulai dari
+                  <code class="red">0rem</code> sampai
+                  <code class="red">2.5rem</code>.
+                </p>
+                <br />
+                <p class="line-space text-justify">
+                  Kelas diberi nama dengan menggunakan format
+                  <code class="red">{property}{sides}-{size}</code> untuk
+                  default atau tidak digunakan dalam breakpoint, dan
+                  <code class="red">{breakpoint}-{property}{sides}-{size}</code>
+                  untuk digunakan dalam breakpoint.
+                </p>
+                <br />
+                <div>
+                  <p>Bagian dari <code class="red">property</code> adalah :</p>
+                  <ul class="pl-2 line-space">
+                    <li>
+                      <code class="red">m</code> - Mewakili kelas untuk mengatur
+                      <code class="red">margin</code>.
+                    </li>
+                    <li>
+                      <code class="red">p</code> - Mewakili kelas untuk mengatur
+                      <code class="red">padding</code>.
+                    </li>
+                  </ul>
+                </div>
+                <div>
+                  <p>Bagian dari <code class="red">sides</code> adalah :</p>
+                  <ul class="pl-2 line-space">
+                    <li>
+                      (Kosong) - Mewakili kelas untuk mengatur
+                      <code class="red">margin</code> atau
+                      <code class="red">padding</code> dalam 4 sisi sebuah
+                      element.
+                    </li>
+                    <li>
+                      <code class="red">t</code> - Mewakili kelas untuk mengatur
+                      <code class="red">margin-top</code> atau
+                      <code class="red">padding-top</code>.
+                    </li>
+                    <li>
+                      <code class="red">b</code> - Mewakili kelas untuk mengatur
+                      <code class="red">margin-bottom</code> atau
+                      <code class="red">padding-bottom</code>.
+                    </li>
+                    <li>
+                      <code class="red">l</code> - Mewakili kelas untuk mengatur
+                      <code class="red">margin-left</code> atau
+                      <code class="red">padding-left</code>.
+                    </li>
+                    <li>
+                      <code class="red">r</code> - Mewakili kelas untuk mengatur
+                      <code class="red">margin-right</code> atau
+                      <code class="red">padding-right</code>.
+                    </li>
+                    <li>
+                      <code class="red">y</code> - Mewakili kelas untuk mengatur
+                      <code class="red">*-top</code> dan
+                      <code class="red">*-bottom</code> pada
+                      <code class="red">margin</code> atau
+                      <code class="red">padding</code>.
+                    </li>
+                    <li>
+                      <code class="red">x</code> - Mewakili kelas untuk mengatur
+                      <code class="red">*-left</code> dan
+                      <code class="red">*-right</code> pada
+                      <code class="red">margin</code> atau
+                      <code class="red">padding</code>.
+                    </li>
+                  </ul>
+                </div>
+                <div>
+                  <p>Bagian dari <code class="red">size</code> adalah :</p>
+                  <ul class="pl-2 line-space">
+                    <li>
+                      <code class="red">0</code> - Memiliki ukuran
+                      <code class="red">0rem</code>.
+                    </li>
+                    <li>
+                      <code class="red">xs</code> - Memiliki ukuran
+                      <code class="red">0.5rem</code>.
+                    </li>
+                    <li>
+                      <code class="red">sm</code> - Memiliki ukuran
+                      <code class="red">0.75rem</code>.
+                    </li>
+                    <li>
+                      <code class="red">1</code> - Memiliki ukuran
+                      <code class="red">1rem</code>.
+                    </li>
+                    <li>
+                      <code class="red">2</code> - Memiliki ukuran
+                      <code class="red">1.25rem</code>.
+                    </li>
+                    <li>
+                      <code class="red">3</code> - Memiliki ukuran
+                      <code class="red">1.5rem</code>.
+                    </li>
+                    <li>
+                      <code class="red">4</code> - Memiliki ukuran
+                      <code class="red">1.75rem</code>.
+                    </li>
+                    <li>
+                      <code class="red">5</code> - Memiliki ukuran
+                      <code class="red">2rem</code>.
+                    </li>
+                    <li>
+                      <code class="red">6</code> - Memiliki ukuran
+                      <code class="red">2.25rem</code>.
+                    </li>
+                    <li>
+                      <code class="red">7</code> - Memiliki ukuran
+                      <code class="red">2.5rem</code>.
+                    </li>
+                    <li>
+                      <code class="red">auto</code> - Mengatur ukuran
+                      <code class="red">padding</code> dan
+                      <code class="red">margin</code> menjadi auto.
+                    </li>
+                  </ul>
+                </div>
+                <div class="py-2">
+                  <p class="font-weight-700 font-size-3">Contoh pada CSS :</p>
+                  <br />
+                  <script src="https://gist.github.com/pocong1212/2f94a01c18ff77402653c90daf71e265.js"></script>
+              </div>
+              <div class="py-2">
+                <p class="font-weight-700 font-size-3">Contoh penggunaan :</p>
+                <br>
               </div>
             </div>
             <div class="section">
@@ -110,7 +315,7 @@
         </div>
       </div>
     </div>
-    <script>
+    <!-- <script>
       const sections = document.querySelectorAll(".section");
       for (const section of sections) {
         for (let i = 0; i < 25; i++) {
@@ -120,6 +325,6 @@
           section.appendChild(br);
         }
       }
-    </script>
+    </script> -->
   </body>
 </html>

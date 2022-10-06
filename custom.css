@@ -7,6 +7,31 @@ body {
   height: 100vh;
 }
 
+table {
+  display: table;
+  text-indent: initial;
+  border-spacing: 2px;
+}
+
+tbody,
+td,
+tfoot,
+th,
+thead,
+tr {
+  border-color: inherit;
+  border-style: solid;
+  border-width: 0;
+}
+
+th {
+  text-align: inherit;
+}
+
+tr {
+  font-weight: normal;
+}
+
 .h-100 {
   height: 100%;
 }
@@ -89,12 +114,17 @@ body {
   color: var(--primary);
 }
 
-.child {
-  transition: 0.3s;
+.table {
+  border-collapse: collapse;
+  caption-side: bottom;
+  border-color: #dee2e6;
 }
 
-.child a:hover {
-  color: var(--primary);
-  transition: 0.3s;
-  margin-left: var(--size-5);
+.table > :not(caption) > * > * {
+  padding: 0.5rem 0.5rem;
+  border-bottom-width: 1px;
+}
+
+.table > :not(:last-child) > :last-child > * {
+  border-bottom-color: currentColor;
 }
