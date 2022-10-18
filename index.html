@@ -25,7 +25,7 @@
                 <a href="#instalasi">Instalasi</a>
               </h1>
             </div>
-            <div class="py-1">
+            <div class="pb-1">
               <h1>
                 <a href="#layout">Layout</a>
               </h1>
@@ -43,21 +43,56 @@
               <h1>
                 <a href="#gap" class="pt-1 pl-1">- Gap</a>
               </h1>
+              <h1>
+                <a href="#text" class="pt-1 pl-1">- Text</a>
+              </h1>
             </div>
-            <div class="py-1">
+            <div class="pb-1">
               <h1>
                 <a href="#components">Components</a>
               </h1>
               <h1>
                 <a href="#button" class="pt-1 pl-1">- Button</a>
               </h1>
+              <h1>
+                <a href="#card" class="pt-1 pl-1">- Card</a>
+              </h1>
+              <h1>
+                <a href="#group-list" class="pt-1 pl-1">- Group List</a>
+              </h1>
+              <h1>
+                <a href="#navigation" class="pt-1 pl-1">- Navigation</a>
+              </h1>
+              <h1>
+                <a href="#pagination" class="pt-1 pl-1">- Pagination</a>
+              </h1>
+              <h1>
+                <a href="#progress-bar" class="pt-1 pl-1">- Progress Bar</a>
+              </h1>
+              <h1>
+                <a href="#form-control" class="pt-1 pl-1">- Form Control</a>
+              </h1>
             </div>
-            <h1 class="mb-1">
-              <a href="#colors">Colors</a>
-            </h1>
-            <h1 class="mb-1">
-              <a href="#utilities">Utilities</a>
-            </h1>
+            <div class="pb-1">
+              <h1>
+                <a href="#utilities">Utilities</a>
+              </h1>
+              <h1>
+                <a href="#background" class="pt-1 pl-1">- Background</a>
+              </h1>
+              <h1>
+                <a href="#borders" class="pt-1 pl-1">- Borders</a>
+              </h1>
+              <h1>
+                <a href="#colors" class="pt-1 pl-1">- Colors</a>
+              </h1>
+              <h1>
+                <a href="#flex" class="pt-1 pl-1">- Flex</a>
+              </h1>
+              <h1>
+                <a href="#sizing" class="pt-1 pl-1">- Sizing</a>
+              </h1>
+            </div>
           </div>
           <div class="h-100 flex-8 scrollable p-2">
             <div class="section">
@@ -87,10 +122,10 @@
                 <p class="text-justify line-space">
                   Setelah selesai mengunduh anda akan mendapatkan file berupa
                   CSS, setelah itu pindahkan file CSS kedalam folder project
-                  dengan lokasi yang diinginkan (contoh:
-                  src/framework/glass-framework.css). Kemudian setelah memasukan
-                  file CSS, langkah selanjutnya mengimport CSS dengan menuliskan
-                  code berikut :
+                  dengan lokasi yang diinginkan
+                  <b>(contoh: src/framework/glass-framework.css).</b> Kemudian
+                  setelah memasukan file CSS, langkah selanjutnya mengimport CSS
+                  dengan menuliskan code berikut :
                 </p>
                 <br />
                 <script src="https://gist.github.com/pocong1212/e4e1b00e61261bf1238c1c26f7e9741a.js"></script>
@@ -98,7 +133,7 @@
             </div>
             <div class="section">
               <h1 class="font-size-6">
-                <a href="#layout" id="layout" class="color-primary">Layout </a>
+                <a href="#layout" id="layout" class="color-primary">Layout</a>
               </h1>
               <div class="pt-1">
                 <h2 class="font-size-3">
@@ -180,9 +215,9 @@
                   untuk digunakan dalam breakpoint.
                 </p>
                 <br />
-                <div>
+                <div class="pb-1">
                   <p>Bagian dari <code class="red">property</code> adalah :</p>
-                  <ul class="pl-2 line-space">
+                  <ul class="pl-6 line-space">
                     <li>
                       <code class="red">m</code> - Mewakili kelas untuk mengatur
                       <code class="red">margin</code>.
@@ -193,9 +228,9 @@
                     </li>
                   </ul>
                 </div>
-                <div>
+                <div class="pb-1">
                   <p>Bagian dari <code class="red">sides</code> adalah :</p>
-                  <ul class="pl-2 line-space">
+                  <ul class="pl-6 line-space">
                     <li>
                       (Kosong) - Mewakili kelas untuk mengatur
                       <code class="red">margin</code> atau
@@ -240,7 +275,7 @@
                 </div>
                 <div>
                   <p>Bagian dari <code class="red">size</code> adalah :</p>
-                  <ul class="pl-2 line-space">
+                  <ul class="pl-6 line-space">
                     <li>
                       <code class="red">0</code> - Memiliki ukuran
                       <code class="red">0rem</code>.
@@ -289,15 +324,15 @@
                   </ul>
                 </div>
                 <div class="pt-2">
-                  <p class="font-weight-700 font-size-3">Contoh pada CSS :</p>
+                  <p class="font-weight-700 font-size-2">Contoh pada CSS :</p>
                   <br />
                   <script src="https://gist.github.com/pocong1212/2f94a01c18ff77402653c90daf71e265.js"></script>
                 </div>
                 <div class="pt-2">
-                  <p class="font-weight-700 font-size-3">Contoh penggunaan :</p>
+                  <p class="font-weight-700 font-size-2">Contoh penggunaan :</p>
                   <br />
                   <div class="card flex mb-1 rounded-xs">
-                    <p class="m-2 border">margin 2</p>
+                    <p class="m-2">margin 2</p>
                     <p class="mb-2">margin bawah 2</p>
                     <p class="my-2">margin atas bawah 2</p>
                     <p class="mx-2">margin kiri kanan 2</p>
@@ -326,10 +361,10 @@
                   <code class="red">{breakpoint}-{gap}-{size}</code> jika
                   digunakan dalam breakpoint.
                 </p>
-                <div class="py-2">
-                  <p class="font-weight-700 font-size-3">Contoh Penggunaan :</p>
+                <div class="pt-2">
+                  <p class="font-weight-700 font-size-2">Contoh Penggunaan :</p>
                   <br />
-                  <div class="card flex flex-column w-100 gap-2 mb-1">
+                  <div class="card flex gap-2 mb-1 rounded-xs">
                     <div class="p-sm bg-primary color-white">Item 1</div>
                     <div class="p-sm bg-primary color-white">Item 2</div>
                     <div class="p-sm bg-primary color-white">Item 3</div>
@@ -337,20 +372,750 @@
                   <script src="https://gist.github.com/pocong1212/b9dc89c7c2eefbda8eac78f061c98a7e.js"></script>
                 </div>
               </div>
-              <div class="section">
-                <h1 class="font-size-6">
-                  <a href="#components" id="components"> Components </a>
-                </h1>
+              <div class="pt-1">
+                <h2 class="font-size-3">
+                  <a href="#text" id="text" class="color-primary">- Text</a>
+                </h2>
+                <br />
+                <p class="line-space text-justify">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Voluptatum eveniet voluptas, dolore non cumque ducimus facere,
+                  esse, consectetur architecto praesentium beatae. Expedita
+                  ducimus quam reiciendis assumenda officiis dignissimos
+                  consequuntur eligendi?
+                </p>
+                <div class="py-2">
+                  <p class="font-weight-700 font-size-2">Contoh Penggunaan :</p>
+                  <br />
+                  <div class="card flex rounded-xs mb-1"></div>
+                </div>
               </div>
               <div class="section">
                 <h1 class="font-size-6">
-                  <a href="#utilities" id="utilities"> Utilities </a>
+                  <a href="#components" id="components" class="color-primary">
+                    Components
+                  </a>
                 </h1>
+                <div class="pt-1">
+                  <h2 class="font-size-3">
+                    <a href="#button" id="button" class="color-primary"
+                      >- Button</a
+                    >
+                  </h2>
+                  <div class="pt-2">
+                    <p class="line-space text-justify">
+                      Custom button style tersedia dalam berbagai jenis dan
+                      ukuran.
+                    </p>
+                    <br />
+                    <p class="font-weight-700 font-size-2">
+                      Contoh Penggunaan :
+                    </p>
+                    <br />
+                    <div class="card flex rounded-xs mb-1">
+                      <div class="flex gap-sm justify-center">
+                        <button
+                          type="button"
+                          class="button button-primary rounded-xs"
+                        >
+                          Primary
+                        </button>
+                        <button
+                          type="button"
+                          class="button button-secondary rounded-xs"
+                        >
+                          Secondary
+                        </button>
+                        <button
+                          type="button"
+                          class="button button-info rounded-xs"
+                        >
+                          Info
+                        </button>
+                        <button
+                          type="button"
+                          class="button button-warning rounded-xs"
+                        >
+                          Warning
+                        </button>
+                        <button
+                          type="button"
+                          class="button button-danger rounded-xs"
+                        >
+                          Danger
+                        </button>
+                        <button
+                          type="button"
+                          class="button button-success rounded-xs"
+                        >
+                          Success
+                        </button>
+                      </div>
+                    </div>
+                    <script src="https://gist.github.com/pocong1212/58d14dca46ea4e33b43d775f655791ad.js"></script>
+                  </div>
+                  <div class="pt-2">
+                    <p class="font-weight-700 font-size-2">Outline Button</p>
+                    <br />
+                    <p class="line-space text-justify">
+                      Untuk penggunaan outline button dengan cara mengetikan
+                      <code class="red">button-white-*</code> setelah kelas
+                      utama <code class="red">button</code>.
+                    </p>
+                    <br />
+                    <p class="font-weight-700 font-size-2">
+                      Contoh Penggunaan :
+                    </p>
+                    <br />
+                    <div class="card flex rounded-xs mb-1">
+                      <div class="flex gap-sm justify-center">
+                        <button
+                          type="button"
+                          class="button button-white-primary rounded-xs"
+                        >
+                          Primary
+                        </button>
+                        <button
+                          type="button"
+                          class="button button-white-secondary rounded-xs"
+                        >
+                          Secondary
+                        </button>
+                        <button
+                          type="button"
+                          class="button button-white-info rounded-xs"
+                        >
+                          Info
+                        </button>
+                        <button
+                          type="button"
+                          class="button button-white-warning rounded-xs"
+                        >
+                          Warning
+                        </button>
+                        <button
+                          type="button"
+                          class="button button-white-danger rounded-xs"
+                        >
+                          Danger
+                        </button>
+                        <button
+                          type="button"
+                          class="button button-white-success rounded-xs"
+                        >
+                          Success
+                        </button>
+                      </div>
+                    </div>
+                    <script src="https://gist.github.com/pocong1212/1f62d4c5bb74d5a041096dba4e57de39.js"></script>
+                  </div>
+                  <div class="pt-2">
+                    <p class="font-weight-700 font-size-2">Sizes</p>
+                    <br />
+                    <p class="line-space text-justify">
+                      Terdapat 2 ukuran dalam button yaitu
+                      <code class="red">button-small</code> dan
+                      <code class="red">button-large</code>.
+                    </p>
+                    <br />
+                    <p class="font-weight-700 font-size-2">
+                      Contoh Penggunaan :
+                    </p>
+                    <br />
+                    <div class="card flex rounded-xs mb-1">
+                      <div class="flex gap-sm justify-center">
+                        <button
+                          type="button"
+                          class="button button-primary button-large rounded-xs"
+                        >
+                          Primary
+                        </button>
+                        <button
+                          type="button"
+                          class="button button-secondary button-large rounded-xs"
+                        >
+                          Secondary
+                        </button>
+                      </div>
+                    </div>
+                    <script src="https://gist.github.com/pocong1212/562a929706db6565243492d5681d8cc0.js"></script>
+                    <div class="card flex rounded-xs mb-1">
+                      <div class="flex gap-sm justify-center">
+                        <button
+                          type="button"
+                          class="button button-primary button-small rounded-xs"
+                        >
+                          Primary
+                        </button>
+                        <button
+                          type="button"
+                          class="button button-secondary button-small rounded-xs"
+                        >
+                          Secondary
+                        </button>
+                      </div>
+                    </div>
+                    <script src="https://gist.github.com/pocong1212/a97af1a99c0a0c60b9f8c7e8a3b524a0.js"></script>
+                  </div>
+                </div>
+                <div class="pt-1">
+                  <h2 class="font-size-3">
+                    <a href="#card" id="card" class="color-primary">- Card</a>
+                  </h2>
+                  <div class="py-2">
+                    <p class="line-space text-justify">
+                      Card merupakan wadah konten yang fleksibel, memiliki 3
+                      bagian yaitu title, content, dan action. Dalam framework
+                      glass-framework, design card menjadi yang sangat
+                      diunggulkan karena mengaplikasikan konsep kaca dan
+                      memiliki 2 tema yaitu standard dan darker.
+                    </p>
+                    <br />
+                    <p class="font-weight-700 font-size-2">
+                      Contoh Penggunaan :
+                    </p>
+                    <br />
+                    <div class="card gambar flex rounded-xs mb-1 align-center">
+                      <div class="card flex rounded-xs w-50">
+                        <h1 class="card-title pb-1 color-white">
+                          Contoh Judul
+                        </h1>
+                        <div class="card-content pb-2 color-white">
+                          <p class="line-space text-justify">
+                            Some quick example text to build on the card title
+                            and make up the bulk of the card's content.
+                          </p>
+                        </div>
+                        <div class="card-action">
+                          <button
+                            class="button button-danger button-small rounded-xs"
+                          >
+                            Cancel
+                          </button>
+                          <button
+                            class="button button-primary button-small rounded-xs"
+                          >
+                            Click
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                    <script src="https://gist.github.com/pocong1212/794b87ed5fc5423d090ca24936fd7547.js"></script>
+                  </div>
+                  <div>
+                    <p class="font-weight-700 font-size-2">Card Darker</p>
+                    <br />
+                    <p class="line-space text-justify">
+                      Card darker merupakan bentuk lain dari card dengan merubah
+                      warna menjadi hitam, untuk menggunakannya cukup
+                      menambahkan <code class="red">darker</code> pada kelas
+                      <code class="red">card</code> yang telah dibuat.
+                    </p>
+                    <br />
+                    <p class="font-weight-700 font-size-2">
+                      Contoh Penggunaan :
+                    </p>
+                    <br />
+                    <div class="card gambar2 flex rounded-xs mb-1 align-center">
+                      <div class="card darker flex rounded-xs w-50">
+                        <h1 class="card-title pb-1 color-white">
+                          Contoh Judul
+                        </h1>
+                        <div class="card-content pb-2 color-white">
+                          <p class="line-space text-justify">
+                            Some quick example text to build on the card title
+                            and make up the bulk of the card's content.
+                          </p>
+                        </div>
+                        <div class="card-action">
+                          <button
+                            class="button button-danger button-small rounded-xs"
+                          >
+                            Cancel
+                          </button>
+                          <button
+                            class="button button-primary button-small rounded-xs"
+                          >
+                            Click
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                    <script src="https://gist.github.com/pocong1212/178c8b15abeb9a86e320fb053dd1f74f.js"></script>
+                  </div>
+                </div>
+                <div class="pt-1">
+                  <h2 class="font-size-3">
+                    <a href="#group-list" id="group-list" class="color-primary"
+                      >- Group List</a
+                    >
+                  </h2>
+                  <div class="pt-2">
+                    <p class="line-space text-justify">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Facilis rerum delectus ea, aliquid aperiam error iste
+                      alias repellat cupiditate corrupti ducimus doloremque ex
+                      nostrum odio blanditiis sunt aut iusto. Eaque!
+                    </p>
+                    <br />
+                    <p class="font-weight-700 font-size-2">
+                      Contoh Penggunaan :
+                    </p>
+                    <br />
+                    <div class="card flex rounded-xs mb-1">
+                      <div class="group-list">
+                        <ul class="gap-xs">
+                          <li><a href="#" class="active">Item 1</a></li>
+                          <li><a href="#">Item 2</a></li>
+                          <li><a href="#">Item 3</a></li>
+                          <li><a href="#" class="disabled">Item 4</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <script src="https://gist.github.com/pocong1212/5ef5f3325d5af14438fbd6e02009f9e1.js"></script>
+                  </div>
+                </div>
+                <div class="pt-1">
+                  <h2 class="font-size-3">
+                    <a href="#navigation" id="navigation" class="color-primary"
+                      >- Navigation</a
+                    >
+                  </h2>
+                  <div class="pt-2">
+                    <p class="line-space text-justify">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Quaerat culpa voluptatum amet ipsa maiores modi totam,
+                      est, vitae rerum enim repellat mollitia optio a
+                      consequuntur magnam minima harum nisi. Dicta!
+                    </p>
+                    <br />
+                    <p class="font-weight-700 font-size-2">
+                      Contoh Penggunaan :
+                    </p>
+                    <br />
+                    <div class="card flex rounded-xs mb-1">
+                      <div class="navigation">
+                        <ul class="gap-1 justify-center">
+                          <li><a href="#" class="active">Active</a></li>
+                          <li><a href="#">Link</a></li>
+                          <li><a href="#">Link</a></li>
+                          <li><a href="#">Link</a></li>
+                          <li><a href="#" class="disabled">Disabled</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <script src="https://gist.github.com/pocong1212/e116dfe543f932bee6bab5772246b50a.js"></script>
+                  </div>
+                </div>
+                <div class="pt-1">
+                  <h2 class="font-size-3">
+                    <a href="#pagination" id="pagination" class="color-primary"
+                      >- Pagination</a
+                    >
+                  </h2>
+                  <div class="pt-2">
+                    <p class="line-space text-justify">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Quaerat culpa voluptatum amet ipsa maiores modi totam,
+                      est, vitae rerum enim repellat mollitia optio a
+                      consequuntur magnam minima harum nisi. Dicta!
+                    </p>
+                    <br />
+                    <p class="font-weight-700 font-size-2">
+                      Contoh Penggunaan :
+                    </p>
+                    <br />
+                    <div class="card flex rounded-xs mb-1">
+                      <div class="pagination">
+                        <ul class="gap-xs justify-center">
+                          <li><a href="#">&lt; Prev</a></li>
+                          <li><a href="#">1</a></li>
+                          <li><a href="#" class="active">2</a></li>
+                          <li><a href="#">3</a></li>
+                          <li><a href="#">4</a></li>
+                          <li><a href="#">Next &gt;</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <script src="https://gist.github.com/pocong1212/47662e903d0f5b3c42b1f748a182bd74.js"></script>
+                  </div>
+                </div>
+                <div class="pt-1">
+                  <h2 class="font-size-3">
+                    <a
+                      href="#progress-bar"
+                      id="progress-bar"
+                      class="color-primary"
+                      >- Progress Bar</a
+                    >
+                  </h2>
+                  <div class="pt-2">
+                    <p class="line-space text-justify">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Quaerat culpa voluptatum amet ipsa maiores modi totam,
+                      est, vitae rerum enim repellat mollitia optio a
+                      consequuntur magnam minima harum nisi. Dicta!
+                    </p>
+                    <br />
+                    <p class="font-weight-700 font-size-2">
+                      Contoh Penggunaan :
+                    </p>
+                    <br />
+                    <div class="card flex rounded-xs mb-1">
+                      <div class="bars gap-sm">
+                        <div class="progress-bar progress-bar-0"></div>
+                        <div class="progress-bar progress-bar-20"></div>
+                        <div class="progress-bar progress-bar-40"></div>
+                        <div class="progress-bar progress-bar-60"></div>
+                        <div class="progress-bar progress-bar-100"></div>
+                      </div>
+                    </div>
+                    <script src="https://gist.github.com/pocong1212/8194aa7e79a66f4307a056f41520b65d.js"></script>
+                  </div>
+                </div>
+                <div class="pt-1">
+                  <h2 class="font-size-3">
+                    <a
+                      href="#form-control"
+                      id="form-control"
+                      class="color-primary"
+                      >- Form Control</a
+                    >
+                  </h2>
+                  <div class="py-2">
+                    <p class="line-space text-justify">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Quaerat culpa voluptatum amet ipsa maiores modi totam,
+                      est, vitae rerum enim repellat mollitia optio a
+                      consequuntur magnam minima harum nisi. Dicta!
+                    </p>
+                    <br />
+                    <p class="font-weight-700 font-size-2">
+                      Contoh Penggunaan :
+                    </p>
+                    <br />
+                    <div class="card flex rounded-xs mb-1">
+                      <div class="flex flex-column form gap-sm">
+                        <div>
+                          <input class="input" type="text" placeholder="Nama" />
+                          <span>Input Nama</span>
+                        </div>
+                        <div>
+                          <input
+                            class="input"
+                            type="email"
+                            placeholder="Email"
+                          />
+                          <span>Email</span>
+                        </div>
+                        <div>
+                          <input
+                            class="input"
+                            type="password"
+                            placeholder="Password"
+                          />
+                          <span>Password</span>
+                        </div>
+                      </div>
+                    </div>
+                    <script src="https://gist.github.com/pocong1212/3486f5f5630aa40ad2c77fe8ad00d631.js"></script>
+                  </div>
+                </div>
               </div>
               <div class="section">
                 <h1 class="font-size-6">
-                  <a href="#colors" id="colors"> Colors </a>
+                  <a href="#utilities" id="utilities" class="color-primary">
+                    Utilities
+                  </a>
                 </h1>
+                <div class="pt-1">
+                  <h2 class="font-size-3">
+                    <a href="#background" id="background" class="color-primary"
+                      >- Background</a
+                    >
+                  </h2>
+                  <div class="pt-2">
+                    <p class="line-space text-justify">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Nisi soluta quibusdam ipsum architecto quas! Tempore illo
+                      omnis sint, nam reprehenderit vitae! Nam totam omnis, quam
+                      voluptatem magni libero et sint.
+                    </p>
+                    <br />
+                    <p class="font-weight-700 font-size-2">
+                      Contoh Penggunaan :
+                    </p>
+                    <br />
+                    <div class="card flex rounded-xs mb-1">
+                      <div class="flex flex-column gap-sm">
+                        <div class="p-xs bg-primary color-white">
+                          .bg-primary
+                        </div>
+                        <div class="p-xs bg-secondary color-black">
+                          .bg-secondary
+                        </div>
+                        <div class="p-xs bg-info color-black">.bg-info</div>
+                        <div class="p-xs bg-warning color-black">
+                          .bg-warning
+                        </div>
+                        <div class="p-xs bg-danger color-white">.bg-danger</div>
+                        <div class="p-xs bg-success color-white">
+                          .bg-success
+                        </div>
+                        <div class="p-xs bg-white color-black">.bg-white</div>
+                        <div class="p-xs bg-black color-white">.bg-black</div>
+                        <div class="p-xs bg-blur color-black">.bg-blur</div>
+                        <div class="p-xs bg-disabled color-black">
+                          .bg-disabled
+                        </div>
+                      </div>
+                    </div>
+                    <script src="https://gist.github.com/pocong1212/67bea50de0ddadcf75da1cbba25cce4b.js"></script>
+                  </div>
+                </div>
+                <div class="pt-1">
+                  <h2 class="font-size-3">
+                    <a href="#borders" id="borders" class="color-primary"
+                      >- Borders</a
+                    >
+                  </h2>
+                  <div class="pt-2">
+                    <p class="font-weight-700 font-size-2">Border Width</p>
+                    <br />
+                    <p class="line-space text-justify">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Nostrum amet maiores voluptatibus, alias eveniet vitae,
+                      numquam sunt mollitia quaerat ab, labore nam eius deleniti
+                      harum voluptate non! Omnis, voluptatum quae.
+                    </p>
+                    <br />
+                    <p class="font-weight-700 font-size-2">
+                      Contoh Penggunaan :
+                    </p>
+                    <br />
+                    <div class="card flex rounded-xs mb-1">
+                      <div class="flex gap-sm justify-center">
+                        <div class="border border-1 square"></div>
+                        <div class="border border-2 square"></div>
+                        <div class="border border-3 square"></div>
+                        <div class="border border-4 square"></div>
+                        <div class="border border-5 square"></div>
+                      </div>
+                    </div>
+                    <script src="https://gist.github.com/pocong1212/3c6439cb56426229356c24b5e4c1e711.js"></script>
+                  </div>
+                  <div class="pt-2">
+                    <p class="font-weight-700 font-size-2">Border Radius</p>
+                    <br />
+                    <p class="line-space text-justify">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Nisi soluta quibusdam ipsum architecto quas! Tempore illo
+                      omnis sint, nam reprehenderit vitae! Nam totam omnis, quam
+                      voluptatem magni libero et sint.
+                    </p>
+                    <br />
+                    <p class="font-weight-700 font-size-2">
+                      Contoh Penggunaan :
+                    </p>
+                    <br />
+                    <div class="card flex rounded-xs mb-1">
+                      <div class="flex gap-sm justify-center">
+                        <div class="flex square2 rounded-sm"></div>
+                        <div class="flex square2 rounded-top-sm"></div>
+                        <div class="flex square2 rounded-bottom-sm"></div>
+                        <div class="flex square2 rounded-left-sm"></div>
+                        <div class="flex square2 rounded-right-sm"></div>
+                      </div>
+                    </div>
+                    <script src="https://gist.github.com/pocong1212/bc6cb2eba792944522af4e831239b3e0.js"></script>
+                  </div>
+                  <div class="pt-2">
+                    <p class="font-weight-700 font-size-2">Border Size</p>
+                    <br />
+                    <p class="line-space text-justify">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Nisi soluta quibusdam ipsum architecto quas! Tempore illo
+                      omnis sint, nam reprehenderit vitae! Nam totam omnis, quam
+                      voluptatem magni libero et sint.
+                    </p>
+                    <br />
+                    <p class="font-weight-700 font-size-2">
+                      Contoh Penggunaan :
+                    </p>
+                    <br />
+                    <div class="card flex rounded-xs mb-1">
+                      <div class="flex gap-sm justify-center">
+                        <div class="flex square2 rounded-xs"></div>
+                        <div class="flex square2 rounded-sm"></div>
+                        <div class="flex square2 rounded-1"></div>
+                        <div class="flex square2 rounded-2"></div>
+                        <div class="flex square2 rounded-3"></div>
+                        <div class="flex square2 rounded-4"></div>
+                        <div class="flex square2 rounded-5"></div>
+                        <div class="flex square2 rounded-6"></div>
+                      </div>
+                    </div>
+                    <script src="https://gist.github.com/pocong1212/a16ec9ab6ffc5e858beb3ac9643d3d2e.js"></script>
+                  </div>
+                </div>
+                <div class="pt-1">
+                  <h2 class="font-size-3">
+                    <a href="#colors" id="colors" class="color-primary"
+                      >- Colors</a
+                    >
+                  </h2>
+                  <br />
+                  <p class="line-space text-justify">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Illum excepturi recusandae, fuga repudiandae sit ad dolorum
+                    eligendi ipsum provident expedita consequuntur repellendus,
+                    voluptatibus facere facilis dignissimos minus vel adipisci
+                    vitae!
+                  </p>
+                  <br />
+                  <p class="font-weight-700 font-size-2">Contoh Penggunaan :</p>
+                  <br />
+                  <div class="card flex rounded-xs mb-1">
+                    <div class="flex flex-column gap-sm">
+                      <p class="color-primary">.color-primary</p>
+                      <p class="color-secondary bg-black">.color-secondary</p>
+                      <p class="color-info bg-black">.color-info</p>
+                      <p class="color-warning bg-black">.color-warning</p>
+                      <p class="color-danger">.color-danger</p>
+                      <p class="color-success">.color-success</p>
+                      <p class="color-white bg-black">.color-white</p>
+                      <p class="color-black">.color-black</p>
+                      <p class="color-disabled">.color-disabled</p>
+                    </div>
+                  </div>
+                  <script src="https://gist.github.com/pocong1212/7924bc611158aed5c30b9de2eb5ddfd3.js"></script>
+                </div>
+                <div class="pt-1">
+                  <h2 class="font-size-3">
+                    <a href="#flex" id="flex" class="color-primary">- Flex</a>
+                  </h2>
+                  <br />
+                  <p class="line-space text-justify">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Est
+                    sapiente id earum? Neque doloribus delectus reiciendis
+                    quibusdam illo dolor odit eos, ipsa earum dolorem fuga
+                    eligendi nam eveniet omnis consequuntur?
+                  </p>
+                  <br />
+                  <p>
+                    Terdapat beberapa variant <code class="red">flex</code> yang
+                    tersedia dalam framework :
+                  </p>
+                  <ul class="pl-6 line-space">
+                    <li><code class="red">flex</code></li>
+                    <li><code class="red">md-flex</code></li>
+                    <li><code class="red">lg-flex</code></li>
+                    <li><code class="red">xl-flex</code></li>
+                  </ul>
+                  <br />
+                  <p class="font-weight-700 font-size-2">Contoh Penggunaan :</p>
+                  <br />
+                  <div class="card flex rounded-xs mb-1">
+                    <div class="p-1 bg-primary">Flexbox container</div>
+                  </div>
+                  <script src="https://gist.github.com/pocong1212/48686f315fc38ef8a6fda67039bd84a9.js"></script>
+                  <div class="pt-1">
+                    <p class="font-weight-700 font-size-2">Direction</p>
+                    <br />
+                    <p class="line-space text-justify">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Beatae esse voluptatem earum aperiam placeat, fugiat nihil
+                      nostrum nesciunt, tenetur cupiditate facere repellat
+                      corrupti quo neque sapiente id sit. Recusandae, esse.
+                    </p>
+                    <br />
+                    <p>
+                      Terdapat beberapa variant
+                      <code class="red">flex-direction</code> yang tersedia
+                      dalam framework :
+                    </p>
+                    <ul class="pl-6 line-space">
+                      <li><code class="red">flex-row</code></li>
+                      <li><code class="red">flex-column</code></li>
+                      <li><code class="red">md-flex-row</code></li>
+                      <li><code class="red">md-flex-column</code></li>
+                      <li><code class="red">lg-flex-row</code></li>
+                      <li><code class="red">lg-flex-column</code></li>
+                      <li><code class="red">xl-flex-row</code></li>
+                      <li><code class="red">xl-flex-column</code></li>
+                    </ul>
+                    <br />
+                    <p class="font-weight-700 font-size-2">
+                      Contoh Penggunaan :
+                    </p>
+                    <br />
+                    <div class="card flex flex-row rounded-xs mb-1">
+                      <div class="p-1 border bg-primary color-white">
+                        Item 1
+                      </div>
+                      <div class="p-1 border bg-primary color-white">
+                        Item 2
+                      </div>
+                      <div class="p-1 border bg-primary color-white">
+                        Item 3
+                      </div>
+                    </div>
+                  </div>
+                  <script src="https://gist.github.com/pocong1212/eaf1e7ebd49089cbc060beb9654db609.js"></script>
+                  <br />
+                  <p class="line-space text-justify">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Atque, at mollitia possimus laudantium quas dolore odio
+                    temporibus repellendus sequi quisquam itaque iste cumque
+                    perspiciatis! Accusamus, sed recusandae. Explicabo, ex et.
+                  </p>
+                  <br />
+                  <div class="card flex flex-column rounded-xs mb-1">
+                    <div class="p-1 border bg-primary color-white">Item 1</div>
+                    <div class="p-1 border bg-primary color-white">Item 2</div>
+                    <div class="p-1 border bg-primary color-white">Item 3</div>
+                  </div>
+                  <script src="https://gist.github.com/pocong1212/ada994db7b1100791bf608bfddb1c6a0.js"></script>
+                  <div class="pt-1">
+                    <p class="font-weight-700 font-size-2">Justify Content</p>
+                    <br />
+                    <p class="line-space text-justify">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Beatae esse voluptatem earum aperiam placeat, fugiat nihil
+                      nostrum nesciunt, tenetur cupiditate facere repellat
+                      corrupti quo neque sapiente id sit. Recusandae, esse.
+                    </p>
+                    <br />
+                    <p>
+                      Terdapat beberapa variant
+                      <code class="red">justify-content</code> yang tersedia
+                      dalam framework :
+                    </p>
+                    <ul class="pl-6 line-space">
+                      <li><code class="red">justify-start</code></li>
+                      <li><code class="red">justify-center</code></li>
+                      <li><code class="red">justify-between</code></li>
+                      <li><code class="red">justify-end</code></li>
+                      <li><code class="red">md-justify-start</code></li>
+                      <li><code class="red">md-justify-center</code></li>
+                      <li><code class="red">md-justify-between</code></li>
+                      <li><code class="red">md-justify-end</code></li>
+                      <li><code class="red">lg-justify-start</code></li>
+                      <li><code class="red">lg-justify-center</code></li>
+                      <li><code class="red">lg-justify-between</code></li>
+                      <li><code class="red">lg-justify-end</code></li>
+                      <li><code class="red">xl-justify-start</code></li>
+                      <li><code class="red">xl-justify-center</code></li>
+                      <li><code class="red">xl-justify-between</code></li>
+                      <li><code class="red">xl-justify-end</code></li>
+                    </ul>
+                    <br />
+                    <p class="font-weight-700 font-size-2">
+                      Contoh Penggunaan :
+                    </p>
+                    <br />
+                  </div>
+                </div>
               </div>
             </div>
           </div>

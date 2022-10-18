@@ -62,12 +62,6 @@ tr {
   overflow-x: auto;
 }
 
-.bg-blur {
-  background: rgba(238, 238, 238, 0.25);
-  -webkit-backdrop-filter: blur(20px);
-  backdrop-filter: blur(20px);
-}
-
 .red {
   color: #e06150;
 }
@@ -88,18 +82,12 @@ tr {
   width: fit-content;
 }
 
-.sidebar {
-}
-
 .sidebar a {
   color: rgb(154, 154, 154);
-  transition-duration: 0.4s;
 }
 
 .sidebar a:hover {
   color: var(--primary);
-  transition-duration: 0.4s;
-  margin-left: var(--size-1);
 }
 
 .sidebar a:active {
@@ -121,22 +109,28 @@ tr {
   border-bottom-color: currentColor;
 }
 
-.border {
-  border-width: 1px;
+.gambar {
+  background-image: url("abst.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.border-radius-xs {
-  border-radius: var(--size-xs);
+.gambar2 {
+  background-image: url("abst2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.border-radius-sm {
-  border-radius: var(--size-sm);
+.square {
+  width: 75px;
+  height: 75px;
+  background: #f5f5f5;
 }
 
-.border-radius {
-  border-radius: var(--size-1);
-}
-
-.border-radius-md {
-  border-radius: var(--size-2);
+.square2 {
+  width: 75px;
+  height: 75px;
+  background: #a4a4a4;
 }
