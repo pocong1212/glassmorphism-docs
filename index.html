@@ -5,7 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Glass Framework Docs</title>
-    <link rel="stylesheet" href="index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/pocong1212/glass-framework@3ec8707/dist/glass-framework.min.css"
+    />
     <link rel="stylesheet" href="custom.css" />
   </head>
   <body>
@@ -96,18 +99,31 @@
           </div>
           <div class="h-100 flex-8 scrollable p-2">
             <div class="section">
-              <h1 class="font-size-6">
+              <h1 class="font-size-7">
                 <a href="#instalasi" id="instalasi" class="color-primary">
                   Instalasi
                 </a>
               </h1>
-              <div class="pt-2">
+              <div class="pt-1">
+                <p class="font-weight-700 font-size-4">Import Melalui CDN</p>
+                <br />
+                <p class="line-space text-justify">
+                  Gunakan stylesheet <code class="red"><</code
+                  ><code class="red">link></code> ini dan copy-paste ke dalam
+                  <code class="red"><</code><code class="red">head></code>.
+                </p>
+                <br />
+                <script src="https://gist.github.com/pocong1212/da08b241947910756da0848da50aceea.js"></script>
+              </div>
+              <div class="">
+                <p class="font-weight-700 font-size-4">Import Local</p>
+                <br />
                 <p class="font-weight-700 font-size-2">
-                  1. Mengunduh Framework
+                  1. Mengunduh Framework CSS
                 </p>
                 <br />
                 <p>
-                  Untuk mendapatkan file framework dapat di unduh
+                  Untuk mendapatkan file framework CSS dapat di unduh
                   <a
                     href="index.css"
                     download="glass-framework.css"
@@ -117,7 +133,9 @@
                 </p>
               </div>
               <div class="py-2">
-                <p class="font-weight-700 font-size-2">2. Memakai Framework</p>
+                <p class="font-weight-700 font-size-2">
+                  2. Memakai Framework CSS
+                </p>
                 <br />
                 <p class="text-justify line-space">
                   Setelah selesai mengunduh anda akan mendapatkan file berupa
@@ -132,11 +150,11 @@
               </div>
             </div>
             <div class="section">
-              <h1 class="font-size-6">
+              <h1 class="font-size-7">
                 <a href="#layout" id="layout" class="color-primary">Layout</a>
               </h1>
               <div class="pt-1">
-                <h2 class="font-size-3">
+                <h2 class="font-size-5">
                   <a href="#breakpoint" id="breakpoint" class="color-primary"
                     >- Breakpoint</a
                   >
@@ -181,7 +199,7 @@
                 </div>
               </div>
               <div class="pt-1">
-                <h2 class="font-size-3">
+                <h2 class="font-size-5">
                   <a href="#container" id="container" class="color-primary"
                     >- Container</a
                   >
@@ -191,7 +209,7 @@
                 <br />
               </div>
               <div class="pt-1">
-                <h2 class="font-size-3">
+                <h2 class="font-size-5">
                   <a
                     href="#marginpadding"
                     id="marginpadding"
@@ -345,7 +363,7 @@
                 </div>
               </div>
               <div class="pt-1">
-                <h2 class="font-size-3">
+                <h2 class="font-size-5">
                   <a href="#gap" id="gap" class="color-primary">- Gap</a>
                 </h2>
                 <br />
@@ -373,7 +391,7 @@
                 </div>
               </div>
               <div class="pt-1">
-                <h2 class="font-size-3">
+                <h2 class="font-size-5">
                   <a href="#text" id="text" class="color-primary">- Text</a>
                 </h2>
                 <br />
@@ -391,13 +409,13 @@
                 </div>
               </div>
               <div class="section">
-                <h1 class="font-size-6">
+                <h1 class="font-size-7">
                   <a href="#components" id="components" class="color-primary">
                     Components
                   </a>
                 </h1>
                 <div class="pt-1">
-                  <h2 class="font-size-3">
+                  <h2 class="font-size-5">
                     <a href="#button" id="button" class="color-primary"
                       >- Button</a
                     >
@@ -455,7 +473,7 @@
                     <script src="https://gist.github.com/pocong1212/58d14dca46ea4e33b43d775f655791ad.js"></script>
                   </div>
                   <div class="pt-2">
-                    <p class="font-weight-700 font-size-2">Outline Button</p>
+                    <p class="font-weight-700 font-size-4">Outline Button</p>
                     <br />
                     <p class="line-space text-justify">
                       Untuk penggunaan outline button dengan cara mengetikan
@@ -510,7 +528,7 @@
                     <script src="https://gist.github.com/pocong1212/1f62d4c5bb74d5a041096dba4e57de39.js"></script>
                   </div>
                   <div class="pt-2">
-                    <p class="font-weight-700 font-size-2">Sizes</p>
+                    <p class="font-weight-700 font-size-4">Sizes</p>
                     <br />
                     <p class="line-space text-justify">
                       Terdapat 2 ukuran dalam button yaitu
@@ -559,7 +577,7 @@
                   </div>
                 </div>
                 <div class="pt-1">
-                  <h2 class="font-size-3">
+                  <h2 class="font-size-5">
                     <a href="#card" id="card" class="color-primary">- Card</a>
                   </h2>
                   <div class="py-2">
@@ -603,7 +621,7 @@
                     <script src="https://gist.github.com/pocong1212/794b87ed5fc5423d090ca24936fd7547.js"></script>
                   </div>
                   <div>
-                    <p class="font-weight-700 font-size-2">Card Darker</p>
+                    <p class="font-weight-700 font-size-4">Card Darker</p>
                     <br />
                     <p class="line-space text-justify">
                       Card darker merupakan bentuk lain dari card dengan merubah
@@ -645,7 +663,7 @@
                   </div>
                 </div>
                 <div class="pt-1">
-                  <h2 class="font-size-3">
+                  <h2 class="font-size-5">
                     <a href="#group-list" id="group-list" class="color-primary"
                       >- Group List</a
                     >
@@ -676,7 +694,7 @@
                   </div>
                 </div>
                 <div class="pt-1">
-                  <h2 class="font-size-3">
+                  <h2 class="font-size-5">
                     <a href="#navigation" id="navigation" class="color-primary"
                       >- Navigation</a
                     >
@@ -708,7 +726,7 @@
                   </div>
                 </div>
                 <div class="pt-1">
-                  <h2 class="font-size-3">
+                  <h2 class="font-size-5">
                     <a href="#pagination" id="pagination" class="color-primary"
                       >- Pagination</a
                     >
@@ -741,7 +759,7 @@
                   </div>
                 </div>
                 <div class="pt-1">
-                  <h2 class="font-size-3">
+                  <h2 class="font-size-5">
                     <a
                       href="#progress-bar"
                       id="progress-bar"
@@ -774,7 +792,7 @@
                   </div>
                 </div>
                 <div class="pt-1">
-                  <h2 class="font-size-3">
+                  <h2 class="font-size-5">
                     <a
                       href="#form-control"
                       id="form-control"
@@ -823,13 +841,13 @@
                 </div>
               </div>
               <div class="section">
-                <h1 class="font-size-6">
+                <h1 class="font-size-7">
                   <a href="#utilities" id="utilities" class="color-primary">
                     Utilities
                   </a>
                 </h1>
                 <div class="pt-1">
-                  <h2 class="font-size-3">
+                  <h2 class="font-size-5">
                     <a href="#background" id="background" class="color-primary"
                       >- Background</a
                     >
@@ -874,13 +892,13 @@
                   </div>
                 </div>
                 <div class="pt-1">
-                  <h2 class="font-size-3">
+                  <h2 class="font-size-5">
                     <a href="#borders" id="borders" class="color-primary"
                       >- Borders</a
                     >
                   </h2>
                   <div class="pt-2">
-                    <p class="font-weight-700 font-size-2">Border Width</p>
+                    <p class="font-weight-700 font-size-4">Border Width</p>
                     <br />
                     <p class="line-space text-justify">
                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -905,7 +923,7 @@
                     <script src="https://gist.github.com/pocong1212/3c6439cb56426229356c24b5e4c1e711.js"></script>
                   </div>
                   <div class="pt-2">
-                    <p class="font-weight-700 font-size-2">Border Radius</p>
+                    <p class="font-weight-700 font-size-4">Border Radius</p>
                     <br />
                     <p class="line-space text-justify">
                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -930,7 +948,7 @@
                     <script src="https://gist.github.com/pocong1212/bc6cb2eba792944522af4e831239b3e0.js"></script>
                   </div>
                   <div class="pt-2">
-                    <p class="font-weight-700 font-size-2">Border Size</p>
+                    <p class="font-weight-700 font-size-4">Border Size</p>
                     <br />
                     <p class="line-space text-justify">
                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -959,7 +977,7 @@
                   </div>
                 </div>
                 <div class="pt-1">
-                  <h2 class="font-size-3">
+                  <h2 class="font-size-5">
                     <a href="#colors" id="colors" class="color-primary"
                       >- Colors</a
                     >
@@ -991,7 +1009,7 @@
                   <script src="https://gist.github.com/pocong1212/7924bc611158aed5c30b9de2eb5ddfd3.js"></script>
                 </div>
                 <div class="pt-1">
-                  <h2 class="font-size-3">
+                  <h2 class="font-size-5">
                     <a href="#flex" id="flex" class="color-primary">- Flex</a>
                   </h2>
                   <br />
@@ -1020,7 +1038,7 @@
                   </div>
                   <script src="https://gist.github.com/pocong1212/48686f315fc38ef8a6fda67039bd84a9.js"></script>
                   <div class="pt-1">
-                    <p class="font-weight-700 font-size-2">Direction</p>
+                    <p class="font-weight-700 font-size-4">Direction</p>
                     <br />
                     <p class="line-space text-justify">
                       Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -1085,7 +1103,7 @@
                   </div>
                   <script src="https://gist.github.com/pocong1212/ada994db7b1100791bf608bfddb1c6a0.js"></script>
                   <div class="pt-1">
-                    <p class="font-weight-700 font-size-2">Justify Content</p>
+                    <p class="font-weight-700 font-size-4">Justify Content</p>
                     <br />
                     <p class="line-space text-justify">
                       Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -1147,7 +1165,7 @@
                     <script src="https://gist.github.com/pocong1212/f6fc796f7d69fd66de0118c89f670a46.js"></script>
                   </div>
                   <div class="pt-1">
-                    <p class="font-weight-700 font-size-2">Align Items</p>
+                    <p class="font-weight-700 font-size-4">Align Items</p>
                     <br />
                     <p class="line-space text-justify">
                       Lorem ipsum, dolor sit amet consectetur adipisicing elit.
@@ -1219,7 +1237,7 @@
                   </div>
                 </div>
                 <div class="pt-1">
-                  <h2 class="font-size-3">
+                  <h2 class="font-size-5">
                     <a href="#sizing" id="sizing" class="color-primary"
                       >- Sizing</a
                     >
@@ -1291,8 +1309,8 @@
                         Height Auto
                       </div>
                     </div>
-                    <script src="https://gist.github.com/pocong1212/144b5dab82d4304220c607f70dfecda9.js"></script>
                   </div>
+                  <script src="https://gist.github.com/pocong1212/144b5dab82d4304220c607f70dfecda9.js"></script>
                 </div>
               </div>
             </div>
