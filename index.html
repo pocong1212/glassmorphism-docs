@@ -5,15 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Glass Framework Docs</title>
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/gh/pocong1212/glass-framework@3ec8707/dist/glass-framework.min.css"
-    />
+    <link rel="stylesheet" href="index.css" />
     <link rel="stylesheet" href="custom.css" />
   </head>
   <body>
     <div class="h-100 flex flex-column">
-      <div class="h-10 w-100 bg-primary sticky">
+      <div class="h-10 w-100 bg-main sticky">
         <div
           class="h-100 p-2 flex container-lg mx-auto flex-column justify-center color-white font-size-2 font-weight-700"
         >
@@ -75,6 +72,12 @@
               <h1>
                 <a href="#form-control" class="pt-1 pl-1">- Form Control</a>
               </h1>
+              <h1>
+                <a href="#navbar" class="pt-1 pl-1">- Navigation Bar</a>
+              </h1>
+              <h1>
+                <a href="#side-navbar" class="pt-1 pl-1">- Side NavBar</a>
+              </h1>
             </div>
             <div class="pb-1">
               <h1>
@@ -100,7 +103,7 @@
           <div class="h-100 flex-8 scrollable p-2">
             <div class="section">
               <h1 class="font-size-7">
-                <a href="#instalasi" id="instalasi" class="color-primary">
+                <a href="#instalasi" id="instalasi" class="color-main">
                   Instalasi
                 </a>
               </h1>
@@ -127,7 +130,7 @@
                   <a
                     href="index.css"
                     download="glass-framework.css"
-                    class="font-weight-700 color-primary"
+                    class="font-weight-700 color-main"
                     >disini.</a
                   >
                 </p>
@@ -151,11 +154,11 @@
             </div>
             <div class="section">
               <h1 class="font-size-7">
-                <a href="#layout" id="layout" class="color-primary">Layout</a>
+                <a href="#layout" id="layout" class="color-main">Layout</a>
               </h1>
               <div class="pt-1">
                 <h2 class="font-size-5">
-                  <a href="#breakpoint" id="breakpoint" class="color-primary"
+                  <a href="#breakpoint" id="breakpoint" class="color-main"
                     >- Breakpoint</a
                   >
                 </h2>
@@ -200,7 +203,7 @@
               </div>
               <div class="pt-1">
                 <h2 class="font-size-5">
-                  <a href="#container" id="container" class="color-primary"
+                  <a href="#container" id="container" class="color-main"
                     >- Container</a
                   >
                 </h2>
@@ -210,10 +213,7 @@
               </div>
               <div class="pt-1">
                 <h2 class="font-size-5">
-                  <a
-                    href="#marginpadding"
-                    id="marginpadding"
-                    class="color-primary"
+                  <a href="#marginpadding" id="marginpadding" class="color-main"
                     >- Margin dan Padding</a
                   >
                 </h2>
@@ -349,7 +349,7 @@
                 <div class="pt-2">
                   <p class="font-weight-700 font-size-2">Contoh penggunaan :</p>
                   <br />
-                  <div class="card flex mb-1 rounded-xs">
+                  <div class="card flex mb-1 rounded-xs color-black">
                     <p class="m-2">margin 2</p>
                     <p class="mb-2">margin bawah 2</p>
                     <p class="my-2">margin atas bawah 2</p>
@@ -364,7 +364,7 @@
               </div>
               <div class="pt-1">
                 <h2 class="font-size-5">
-                  <a href="#gap" id="gap" class="color-primary">- Gap</a>
+                  <a href="#gap" id="gap" class="color-main">- Gap</a>
                 </h2>
                 <br />
                 <p class="line-space text-justify">
@@ -383,16 +383,16 @@
                   <p class="font-weight-700 font-size-2">Contoh Penggunaan :</p>
                   <br />
                   <div class="card flex gap-2 mb-1 rounded-xs">
-                    <div class="p-sm bg-primary color-white">Item 1</div>
-                    <div class="p-sm bg-primary color-white">Item 2</div>
-                    <div class="p-sm bg-primary color-white">Item 3</div>
+                    <div class="p-sm bg-main color-white">Item 1</div>
+                    <div class="p-sm bg-main color-white">Item 2</div>
+                    <div class="p-sm bg-main color-white">Item 3</div>
                   </div>
                   <script src="https://gist.github.com/pocong1212/b9dc89c7c2eefbda8eac78f061c98a7e.js"></script>
                 </div>
               </div>
               <div class="pt-1">
                 <h2 class="font-size-5">
-                  <a href="#text" id="text" class="color-primary">- Text</a>
+                  <a href="#text" id="text" class="color-mian">- Text</a>
                 </h2>
                 <br />
                 <p class="line-space text-justify">
@@ -410,13 +410,13 @@
               </div>
               <div class="section">
                 <h1 class="font-size-7">
-                  <a href="#components" id="components" class="color-primary">
+                  <a href="#components" id="components" class="color-main">
                     Components
                   </a>
                 </h1>
                 <div class="pt-1">
                   <h2 class="font-size-5">
-                    <a href="#button" id="button" class="color-primary"
+                    <a href="#button" id="button" class="color-main"
                       >- Button</a
                     >
                   </h2>
@@ -430,43 +430,25 @@
                       Contoh Penggunaan :
                     </p>
                     <br />
-                    <div class="card flex rounded-xs mb-1">
+                    <div class="card flex rounded-xs mb-1 gambar">
                       <div class="flex gap-sm justify-center">
                         <button
                           type="button"
-                          class="button button-primary rounded-xs"
+                          class="button button-main rounded-xs"
                         >
-                          Primary
+                          Main
                         </button>
                         <button
                           type="button"
-                          class="button button-secondary rounded-xs"
+                          class="button button-denied rounded-xs"
                         >
-                          Secondary
+                          Denied
                         </button>
                         <button
                           type="button"
-                          class="button button-info rounded-xs"
+                          class="button button-blur rounded-xs"
                         >
-                          Info
-                        </button>
-                        <button
-                          type="button"
-                          class="button button-warning rounded-xs"
-                        >
-                          Warning
-                        </button>
-                        <button
-                          type="button"
-                          class="button button-danger rounded-xs"
-                        >
-                          Danger
-                        </button>
-                        <button
-                          type="button"
-                          class="button button-success rounded-xs"
-                        >
-                          Success
+                          Blur
                         </button>
                       </div>
                     </div>
@@ -489,43 +471,51 @@
                       <div class="flex gap-sm justify-center">
                         <button
                           type="button"
-                          class="button button-white-primary rounded-xs"
+                          class="button button-white-main rounded-xs"
                         >
-                          Primary
+                          Main
                         </button>
                         <button
                           type="button"
-                          class="button button-white-secondary rounded-xs"
+                          class="button button-white-denied rounded-xs"
                         >
-                          Secondary
-                        </button>
-                        <button
-                          type="button"
-                          class="button button-white-info rounded-xs"
-                        >
-                          Info
-                        </button>
-                        <button
-                          type="button"
-                          class="button button-white-warning rounded-xs"
-                        >
-                          Warning
-                        </button>
-                        <button
-                          type="button"
-                          class="button button-white-danger rounded-xs"
-                        >
-                          Danger
-                        </button>
-                        <button
-                          type="button"
-                          class="button button-white-success rounded-xs"
-                        >
-                          Success
+                          Denied
                         </button>
                       </div>
                     </div>
                     <script src="https://gist.github.com/pocong1212/1f62d4c5bb74d5a041096dba4e57de39.js"></script>
+                  </div>
+                  <div class="pt-2">
+                    <p class="font-weight-700 font-size-4">Text Button</p>
+                    <br />
+                    <p class="line-space text-justify">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Voluptatum, sit eos impedit praesentium repellendus soluta
+                      quo maxime. Odit rerum quis dolores accusantium ab quidem
+                      nobis obcaecati officia porro omnis! Minima!
+                    </p>
+                    <br />
+                    <p class="font-weight-700 font-size-2">
+                      Contoh Penggunaan :
+                    </p>
+                    <br />
+                    <div class="card flex rounded-xs mb-1">
+                      <div class="flex gap-sm justify-center">
+                        <button
+                          type="button"
+                          class="button button-text-main rounded-xs"
+                        >
+                          Main
+                        </button>
+                        <button
+                          type="button"
+                          class="button button-text-denied rounded-xs"
+                        >
+                          Denied
+                        </button>
+                      </div>
+                    </div>
+                    <script src="https://gist.github.com/pocong1212/559890850cc524bb21ba525c1abff8a8.js"></script>
                   </div>
                   <div class="pt-2">
                     <p class="font-weight-700 font-size-4">Sizes</p>
@@ -544,15 +534,15 @@
                       <div class="flex gap-sm justify-center">
                         <button
                           type="button"
-                          class="button button-primary button-large rounded-xs"
+                          class="button button-main button-large rounded-xs"
                         >
-                          Primary
+                          Main
                         </button>
                         <button
                           type="button"
-                          class="button button-secondary button-large rounded-xs"
+                          class="button button-denied button-large rounded-xs"
                         >
-                          Secondary
+                          Denied
                         </button>
                       </div>
                     </div>
@@ -561,15 +551,15 @@
                       <div class="flex gap-sm justify-center">
                         <button
                           type="button"
-                          class="button button-primary button-small rounded-xs"
+                          class="button button-main button-small rounded-xs"
                         >
-                          Primary
+                          Main
                         </button>
                         <button
                           type="button"
-                          class="button button-secondary button-small rounded-xs"
+                          class="button button-denied button-small rounded-xs"
                         >
-                          Secondary
+                          Denied
                         </button>
                       </div>
                     </div>
@@ -578,7 +568,7 @@
                 </div>
                 <div class="pt-1">
                   <h2 class="font-size-5">
-                    <a href="#card" id="card" class="color-primary">- Card</a>
+                    <a href="#card" id="card" class="color-main">- Card</a>
                   </h2>
                   <div class="py-2">
                     <p class="line-space text-justify">
@@ -606,12 +596,12 @@
                         </div>
                         <div class="card-action">
                           <button
-                            class="button button-danger button-small rounded-xs"
+                            class="button button-denied button-small rounded-xs"
                           >
                             Cancel
                           </button>
                           <button
-                            class="button button-primary button-small rounded-xs"
+                            class="button button-main button-small rounded-xs"
                           >
                             Click
                           </button>
@@ -647,12 +637,12 @@
                         </div>
                         <div class="card-action">
                           <button
-                            class="button button-danger button-small rounded-xs"
+                            class="button button-denied button-small rounded-xs"
                           >
                             Cancel
                           </button>
                           <button
-                            class="button button-primary button-small rounded-xs"
+                            class="button button-main button-small rounded-xs"
                           >
                             Click
                           </button>
@@ -664,7 +654,7 @@
                 </div>
                 <div class="pt-1">
                   <h2 class="font-size-5">
-                    <a href="#group-list" id="group-list" class="color-primary"
+                    <a href="#group-list" id="group-list" class="color-main"
                       >- Group List</a
                     >
                   </h2>
@@ -680,13 +670,14 @@
                       Contoh Penggunaan :
                     </p>
                     <br />
-                    <div class="card flex rounded-xs mb-1">
+                    <div class="card flex rounded-xs mb-1 gambar">
                       <div class="group-list">
                         <ul class="gap-xs">
                           <li><a href="#" class="active">Item 1</a></li>
                           <li><a href="#">Item 2</a></li>
                           <li><a href="#">Item 3</a></li>
-                          <li><a href="#" class="disabled">Item 4</a></li>
+                          <li><a href="#">Item 4</a></li>
+                          <li><a href="#" class="disabled">Item 5</a></li>
                         </ul>
                       </div>
                     </div>
@@ -695,7 +686,7 @@
                 </div>
                 <div class="pt-1">
                   <h2 class="font-size-5">
-                    <a href="#navigation" id="navigation" class="color-primary"
+                    <a href="#navigation" id="navigation" class="color-main"
                       >- Navigation</a
                     >
                   </h2>
@@ -711,7 +702,7 @@
                       Contoh Penggunaan :
                     </p>
                     <br />
-                    <div class="card flex rounded-xs mb-1">
+                    <div class="card flex rounded-xs mb-1 gambar">
                       <div class="navigation">
                         <ul class="gap-1 justify-center">
                           <li><a href="#" class="active">Active</a></li>
@@ -727,7 +718,7 @@
                 </div>
                 <div class="pt-1">
                   <h2 class="font-size-5">
-                    <a href="#pagination" id="pagination" class="color-primary"
+                    <a href="#pagination" id="pagination" class="color-main"
                       >- Pagination</a
                     >
                   </h2>
@@ -743,7 +734,7 @@
                       Contoh Penggunaan :
                     </p>
                     <br />
-                    <div class="card flex rounded-xs mb-1">
+                    <div class="card flex rounded-xs mb-1 gambar">
                       <div class="pagination">
                         <ul class="gap-xs justify-center">
                           <li><a href="#">&lt; Prev</a></li>
@@ -760,10 +751,7 @@
                 </div>
                 <div class="pt-1">
                   <h2 class="font-size-5">
-                    <a
-                      href="#progress-bar"
-                      id="progress-bar"
-                      class="color-primary"
+                    <a href="#progress-bar" id="progress-bar" class="color-main"
                       >- Progress Bar</a
                     >
                   </h2>
@@ -793,14 +781,11 @@
                 </div>
                 <div class="pt-1">
                   <h2 class="font-size-5">
-                    <a
-                      href="#form-control"
-                      id="form-control"
-                      class="color-primary"
+                    <a href="#form-control" id="form-control" class="color-main"
                       >- Form Control</a
                     >
                   </h2>
-                  <div class="py-2">
+                  <div class="pt-2">
                     <p class="line-space text-justify">
                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
                       Quaerat culpa voluptatum amet ipsa maiores modi totam,
@@ -812,7 +797,7 @@
                       Contoh Penggunaan :
                     </p>
                     <br />
-                    <div class="card flex rounded-xs mb-1">
+                    <div class="card flex rounded-xs mb-1 gambar">
                       <div class="flex flex-column form gap-sm">
                         <div>
                           <input class="input" type="text" placeholder="Nama" />
@@ -839,16 +824,80 @@
                     <script src="https://gist.github.com/pocong1212/3486f5f5630aa40ad2c77fe8ad00d631.js"></script>
                   </div>
                 </div>
+                <div class="pt-1">
+                  <h2 class="font-size-5">
+                    <a href="#navbar" id="navbar" class="color-main"
+                      >- Navigation bar</a
+                    >
+                  </h2>
+                  <div class="pt-2">
+                    <p class="line-space text-justify">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Quaerat culpa voluptatum amet ipsa maiores modi totam,
+                      est, vitae rerum enim repellat mollitia optio a
+                      consequuntur magnam minima harum nisi. Dicta!
+                    </p>
+                    <br />
+                    <p class="font-weight-700 font-size-2">
+                      Contoh Penggunaan :
+                    </p>
+                    <br />
+                    <div class="card flex rounded-xs mb-1 gambar">
+                      <div class="navbar">
+                        <a href="#" class="active">Item 1</a>
+                        <a href="#">Item 2</a>
+                        <a href="#">Item 3</a>
+                        <a href="#">Item 4</a>
+                        <a href="#">Item 5</a>
+                        <a href="#">Item 6</a>
+                        <a href="#" class="disabled">Item 7</a>
+                      </div>
+                    </div>
+                    <script src="https://gist.github.com/pocong1212/e292aadb86c3e39f51cb4c4f79649c84.js"></script>
+                  </div>
+                </div>
+                <div class="pt-1">
+                  <h2 class="font-size-5">
+                    <a href="#side-navbar" id="side-navbar" class="color-main"
+                      >-Side Navbar</a
+                    >
+                  </h2>
+                  <div class="py-2">
+                    <p class="line-space text-justify">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Quaerat culpa voluptatum amet ipsa maiores modi totam,
+                      est, vitae rerum enim repellat mollitia optio a
+                      consequuntur magnam minima harum nisi. Dicta!
+                    </p>
+                    <br />
+                    <p class="font-weight-700 font-size-2">
+                      Contoh Penggunaan :
+                    </p>
+                    <br />
+                    <div class="card flex rounded-xs mb-1 gambar">
+                      <div class="side-navbar">
+                        <a href="#" class="active">Item 1</a>
+                        <a href="#">Item 2</a>
+                        <a href="#">Item 3</a>
+                        <a href="#">Item 4</a>
+                        <a href="#">Item 5</a>
+                        <a href="#">Item 6</a>
+                        <a href="#" class="disabled">Item 7</a>
+                      </div>
+                    </div>
+                    <script src="https://gist.github.com/pocong1212/e2153164e91b964dab447701264c97b3.js"></script>
+                  </div>
+                </div>
               </div>
               <div class="section">
                 <h1 class="font-size-7">
-                  <a href="#utilities" id="utilities" class="color-primary">
+                  <a href="#utilities" id="utilities" class="color-main">
                     Utilities
                   </a>
                 </h1>
                 <div class="pt-1">
                   <h2 class="font-size-5">
-                    <a href="#background" id="background" class="color-primary"
+                    <a href="#background" id="background" class="color-main"
                       >- Background</a
                     >
                   </h2>
@@ -866,20 +915,14 @@
                     <br />
                     <div class="card flex rounded-xs mb-1">
                       <div class="flex flex-column gap-sm">
-                        <div class="p-xs bg-primary color-white">
-                          .bg-primary
-                        </div>
+                        <div class="p-xs bg-main color-white">.bg-main</div>
                         <div class="p-xs bg-secondary color-black">
                           .bg-secondary
                         </div>
-                        <div class="p-xs bg-info color-black">.bg-info</div>
-                        <div class="p-xs bg-warning color-black">
-                          .bg-warning
-                        </div>
-                        <div class="p-xs bg-danger color-white">.bg-danger</div>
-                        <div class="p-xs bg-success color-white">
-                          .bg-success
-                        </div>
+                        <div class="p-xs bg-blue color-black">.bg-blue</div>
+                        <div class="p-xs bg-yellow color-black">.bg-yellow</div>
+                        <div class="p-xs bg-denied color-white">.bg-denied</div>
+                        <div class="p-xs bg-green color-white">.bg-green</div>
                         <div class="p-xs bg-white color-black">.bg-white</div>
                         <div class="p-xs bg-black color-white">.bg-black</div>
                         <div class="p-xs bg-blur color-black">.bg-blur</div>
@@ -893,7 +936,7 @@
                 </div>
                 <div class="pt-1">
                   <h2 class="font-size-5">
-                    <a href="#borders" id="borders" class="color-primary"
+                    <a href="#borders" id="borders" class="color-main"
                       >- Borders</a
                     >
                   </h2>
@@ -978,7 +1021,7 @@
                 </div>
                 <div class="pt-1">
                   <h2 class="font-size-5">
-                    <a href="#colors" id="colors" class="color-primary"
+                    <a href="#colors" id="colors" class="color-main"
                       >- Colors</a
                     >
                   </h2>
@@ -995,12 +1038,12 @@
                   <br />
                   <div class="card flex rounded-xs mb-1">
                     <div class="flex flex-column gap-sm">
-                      <p class="color-primary">.color-primary</p>
+                      <p class="color-main">.color-main</p>
                       <p class="color-secondary bg-black">.color-secondary</p>
-                      <p class="color-info bg-black">.color-info</p>
-                      <p class="color-warning bg-black">.color-warning</p>
-                      <p class="color-danger">.color-danger</p>
-                      <p class="color-success">.color-success</p>
+                      <p class="color-blue bg-black">.color-blue</p>
+                      <p class="color-yellow bg-black">.color-yellow</p>
+                      <p class="color-denied">.color-denied</p>
+                      <p class="color-green">.color-green</p>
                       <p class="color-white bg-black">.color-white</p>
                       <p class="color-black">.color-black</p>
                       <p class="color-disabled">.color-disabled</p>
@@ -1010,7 +1053,7 @@
                 </div>
                 <div class="pt-1">
                   <h2 class="font-size-5">
-                    <a href="#flex" id="flex" class="color-primary">- Flex</a>
+                    <a href="#flex" id="flex" class="color-main">- Flex</a>
                   </h2>
                   <br />
                   <p class="line-space text-justify">
@@ -1034,12 +1077,12 @@
                   <p class="font-weight-700 font-size-2">Contoh Penggunaan :</p>
                   <br />
                   <div class="card flex rounded-xs mb-1">
-                    <div class="p-1 bg-primary">Flexbox container</div>
+                    <div class="p-1 bg-main">Flexbox container</div>
                   </div>
                   <script src="https://gist.github.com/pocong1212/48686f315fc38ef8a6fda67039bd84a9.js"></script>
                   <div class="pt-1">
                     <p class="font-weight-700 font-size-4">Direction</p>
-                    <br />
+                    <br />main
                     <p class="line-space text-justify">
                       Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                       Beatae esse voluptatem earum aperiam placeat, fugiat nihil
@@ -1076,15 +1119,9 @@
                     </p>
                     <br />
                     <div class="card flex flex-row rounded-xs mb-1">
-                      <div class="p-1 border bg-primary color-white">
-                        Item 1
-                      </div>
-                      <div class="p-1 border bg-primary color-white">
-                        Item 2
-                      </div>
-                      <div class="p-1 border bg-primary color-white">
-                        Item 3
-                      </div>
+                      <div class="p-1 border bg-main color-white">Item 1</div>
+                      <div class="p-1 border bg-main color-white">Item 2</div>
+                      <div class="p-1 border bg-main color-white">Item 3</div>
                     </div>
                   </div>
                   <script src="https://gist.github.com/pocong1212/eaf1e7ebd49089cbc060beb9654db609.js"></script>
@@ -1097,9 +1134,9 @@
                   </p>
                   <br />
                   <div class="card flex flex-column rounded-xs mb-1">
-                    <div class="p-1 border bg-primary color-white">Item 1</div>
-                    <div class="p-1 border bg-primary color-white">Item 2</div>
-                    <div class="p-1 border bg-primary color-white">Item 3</div>
+                    <div class="p-1 border bg-main color-white">Item 1</div>
+                    <div class="p-1 border bg-main color-white">Item 2</div>
+                    <div class="p-1 border bg-main color-white">Item 3</div>
                   </div>
                   <script src="https://gist.github.com/pocong1212/ada994db7b1100791bf608bfddb1c6a0.js"></script>
                   <div class="pt-1">
@@ -1142,24 +1179,24 @@
                     <br />
                     <div class="card flex rounded-xs mb-1">
                       <div class="bg-disabled flex justify-start mb-1">
-                        <div class="p-1 border bg-primary">Item 1</div>
-                        <div class="p-1 border bg-primary">Item 2</div>
-                        <div class="p-1 border bg-primary">Item 3</div>
+                        <div class="p-1 border bg-main">Item 1</div>
+                        <div class="p-1 border bg-main">Item 2</div>
+                        <div class="p-1 border bg-main">Item 3</div>
                       </div>
                       <div class="bg-disabled flex justify-center mb-1">
-                        <div class="p-1 border bg-primary">Item 1</div>
-                        <div class="p-1 border bg-primary">Item 2</div>
-                        <div class="p-1 border bg-primary">Item 3</div>
+                        <div class="p-1 border bg-main">Item 1</div>
+                        <div class="p-1 border bg-main">Item 2</div>
+                        <div class="p-1 border bg-main">Item 3</div>
                       </div>
                       <div class="bg-disabled flex justify-between mb-1">
-                        <div class="p-1 border bg-primary">Item 1</div>
-                        <div class="p-1 border bg-primary">Item 2</div>
-                        <div class="p-1 border bg-primary">Item 3</div>
+                        <div class="p-1 border bg-main">Item 1</div>
+                        <div class="p-1 border bg-main">Item 2</div>
+                        <div class="p-1 border bg-main">Item 3</div>
                       </div>
                       <div class="bg-disabled flex justify-end mb-1">
-                        <div class="p-1 border bg-primary">Item 1</div>
-                        <div class="p-1 border bg-primary">Item 2</div>
-                        <div class="p-1 border bg-primary">Item 3</div>
+                        <div class="p-1 border bg-main">Item 1</div>
+                        <div class="p-1 border bg-main">Item 2</div>
+                        <div class="p-1 border bg-main">Item 3</div>
                       </div>
                     </div>
                     <script src="https://gist.github.com/pocong1212/f6fc796f7d69fd66de0118c89f670a46.js"></script>
@@ -1204,25 +1241,25 @@
                         class="bg-disabled flex align-start mb-1"
                         style="height: 100px"
                       >
-                        <div class="p-1 border bg-primary">Item 1</div>
-                        <div class="p-1 border bg-primary">Item 2</div>
-                        <div class="p-1 border bg-primary">Item 3</div>
+                        <div class="p-1 border bg-main">Item 1</div>
+                        <div class="p-1 border bg-main">Item 2</div>
+                        <div class="p-1 border bg-main">Item 3</div>
                       </div>
                       <div
                         class="bg-disabled flex align-center mb-1"
                         style="height: 100px"
                       >
-                        <div class="p-1 border bg-primary">Item 1</div>
-                        <div class="p-1 border bg-primary">Item 2</div>
-                        <div class="p-1 border bg-primary">Item 3</div>
+                        <div class="p-1 border bg-main">Item 1</div>
+                        <div class="p-1 border bg-main">Item 2</div>
+                        <div class="p-1 border bg-main">Item 3</div>
                       </div>
                       <div
                         class="bg-disabled flex align-stretch mb-1"
                         style="height: 100px"
                       >
-                        <div class="p-1 border bg-primary">Item 1</div>
-                        <div class="p-1 border bg-primary">Item 2</div>
-                        <div class="p-1 border bg-primary">Item 3</div>
+                        <div class="p-1 border bg-main">Item 1</div>
+                        <div class="p-1 border bg-main">Item 2</div>
+                        <div class="p-1 border bg-main">Item 3</div>
                       </div>
                       <div
                         class="bg-disabled flex align-end mb-1"
@@ -1238,7 +1275,7 @@
                 </div>
                 <div class="pt-1">
                   <h2 class="font-size-5">
-                    <a href="#sizing" id="sizing" class="color-primary"
+                    <a href="#sizing" id="sizing" class="color-main"
                       >- Sizing</a
                     >
                   </h2>
@@ -1251,19 +1288,19 @@
                   </p>
                   <br />
                   <div class="card flex rounded-xs mb-1">
-                    <div class="w-25 bg-primary color-white border p-2">
+                    <div class="w-25 bg-main color-white border p-2">
                       Width 25%
                     </div>
-                    <div class="w-50 bg-primary color-white border p-2">
+                    <div class="w-50 bg-main color-white border p-2">
                       Width 50%
                     </div>
-                    <div class="w-75 bg-primary color-white border p-2">
+                    <div class="w-75 bg-main color-white border p-2">
                       Width 75%
                     </div>
-                    <div class="w-100 bg-primary color-white border p-2">
+                    <div class="w-100 bg-main color-white border p-2">
                       Width 100%
                     </div>
-                    <div class="w-auto bg-primary color-white border p-2">
+                    <div class="w-auto bg-main color-white border p-2">
                       Width Auto
                     </div>
                   </div>
@@ -1279,31 +1316,31 @@
                   <div class="card flex rounded-xs mb-1">
                     <div class="bg-disabled flex gap-sm" style="height: 100px">
                       <div
-                        class="border bg-primary h-25 text-center color-white"
+                        class="border bg-main h-25 text-center color-white"
                         style="width: 120px"
                       >
                         Height 25%
                       </div>
                       <div
-                        class="border bg-primary h-50 text-center color-white"
+                        class="border bg-main h-50 text-center color-white"
                         style="width: 120px"
                       >
                         Height 50%
                       </div>
                       <div
-                        class="border bg-primary h-75 text-center color-white"
+                        class="border bg-main h-75 text-center color-white"
                         style="width: 120px"
                       >
                         Height 75%
                       </div>
                       <div
-                        class="border bg-primary h-100 text-center color-white"
+                        class="border bg-main h-100 text-center color-white"
                         style="width: 120px"
                       >
                         Height 100%
                       </div>
                       <div
-                        class="border bg-primary h-auto text-center color-white"
+                        class="border bg-main h-auto text-center color-white"
                         style="width: 120px"
                       >
                         Height Auto

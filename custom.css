@@ -83,11 +83,11 @@ tr {
 }
 
 .sidebar a:hover {
-  color: var(--primary);
+  color: var(--main);
 }
 
 .sidebar a:active {
-  color: var(--primary);
+  color: var(--main);
 }
 
 .table {
